@@ -530,7 +530,6 @@
     <property role="TrG5h" value="Behaviors" />
     <property role="34LRSv" value="Behaviors" />
     <property role="R4oN_" value="[Components behaviors]" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="2zw9d8E_Zab" role="1TKVEi">
       <property role="IQ2ns" value="2945394641376637579" />
