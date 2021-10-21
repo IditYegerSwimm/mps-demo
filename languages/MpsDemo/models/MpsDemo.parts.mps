@@ -14,7 +14,7 @@
         <property id="8942130627661104432" name="id" index="3gYl5t" />
         <property id="8942130627661104397" name="type" index="3gYl5w" />
         <property id="8942130627661240830" name="link" index="3gYOQj" />
-        <property id="1848303263159303443" name="single" index="1Oq4cl" />
+        <property id="1848303263159303443" name="isPlatform" index="1Oq4cl" />
         <child id="8942130627661365244" name="pins" index="3gZqIh" />
         <child id="1848303263162982748" name="states" index="1RC1Xq" />
       </concept>

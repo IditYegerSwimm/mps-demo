@@ -68,7 +68,7 @@
     <property role="34LRSv" value="Component definition" />
     <property role="R4oN_" value="[Component definition]" />
     <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="component" />
+    <property role="3GE5qa" value="component.definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="7KoP6QGTnZW" role="1TKVEi">
       <property role="IQ2ns" value="8942130627661365244" />
@@ -106,7 +106,7 @@
     </node>
     <node concept="1TJgyi" id="1AAvwpHNzOj" role="1TKVEl">
       <property role="IQ2nx" value="1848303263159303443" />
-      <property role="TrG5h" value="single" />
+      <property role="TrG5h" value="isPlatform" />
       <ref role="AX2Wp" node="1AAvwpHNyA_" resolve="Single" />
     </node>
     <node concept="t5JxF" id="1AAvwpHKJ2i" role="lGtFl">
@@ -167,6 +167,12 @@
     <property role="34LRSv" value="Component" />
     <property role="3GE5qa" value="component" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2zw9d8EzZkl" role="1TKVEi">
+      <property role="IQ2ns" value="2945394641376113941" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="color" />
+      <ref role="20lvS9" node="1AAvwpI9ynj" resolve="Color" />
+    </node>
     <node concept="1TJgyj" id="7KoP6QGSBt8" role="1TKVEi">
       <property role="IQ2ns" value="8942130627661166408" />
       <property role="20kJfa" value="definition" />
@@ -197,26 +203,33 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1AAvwpIbMur" resolve="Language" />
     </node>
-    <node concept="1TJgyj" id="7KoP6QGR_rF" role="1TKVEi">
-      <property role="IQ2ns" value="8942130627660895979" />
+    <node concept="1TJgyj" id="5CyBoJm8lDT" role="1TKVEi">
+      <property role="IQ2ns" value="6494926836540201593" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="platform" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1AAvwpHL6tM" resolve="Component" />
+    </node>
+    <node concept="1TJgyj" id="2zw9d8EvEyP" role="1TKVEi">
+      <property role="IQ2ns" value="2945394641374980277" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="components" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1AAvwpHL6tM" resolve="Component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2zw9d8EvBD0" resolve="Components" />
     </node>
     <node concept="1TJgyj" id="1AAvwpHMjPv" role="1TKVEi">
       <property role="IQ2ns" value="1848303263158975839" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="connections" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1AAvwpHMjPu" resolve="Connection" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2zw9d8EvF0R" resolve="Connections" />
     </node>
     <node concept="1TJgyj" id="1AAvwpI1lI0" role="1TKVEi">
       <property role="IQ2ns" value="1848303263162915712" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="behaviors" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1AAvwpI1lHZ" resolve="Behavior" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2zw9d8E_Za9" resolve="Behaviors" />
     </node>
     <node concept="t5JxF" id="1AAvwpHL6F2" role="lGtFl">
       <property role="t5JxN" value="wokwi Diagram : https://docs.wokwi.com/guides/diagram-editor" />
@@ -281,8 +294,8 @@
   </node>
   <node concept="25R3W" id="1AAvwpHNyA_">
     <property role="3F6X1D" value="1848303263159298469" />
-    <property role="3GE5qa" value="component" />
-    <property role="TrG5h" value="Single" />
+    <property role="3GE5qa" value="component.definition" />
+    <property role="TrG5h" value="IsPlatform" />
     <ref role="1H5jkz" node="1AAvwpHNyAB" resolve="false" />
     <node concept="25R33" id="1AAvwpHNyAA" role="25R1y">
       <property role="3tVfz5" value="1848303263159298470" />
@@ -381,10 +394,10 @@
   </node>
   <node concept="PlHQZ" id="1AAvwpI2jvG">
     <property role="EcuMT" value="1848303263163168748" />
-    <property role="3GE5qa" value="component" />
+    <property role="3GE5qa" value="component.definition" />
     <property role="TrG5h" value="TableEntry" />
     <node concept="t5JxF" id="1AAvwpI2jvH" role="lGtFl">
-      <property role="t5JxN" value="Can be presented in the table" />
+      <property role="t5JxN" value="Can be presented in as a table entry" />
     </node>
   </node>
   <node concept="1TIwiD" id="1AAvwpI85mf">
@@ -414,7 +427,7 @@
   </node>
   <node concept="1TIwiD" id="1AAvwpI9ynj">
     <property role="EcuMT" value="1848303263165064659" />
-    <property role="3GE5qa" value="connection" />
+    <property role="3GE5qa" value="connection.color" />
     <property role="TrG5h" value="Color" />
     <property role="34LRSv" value="Color" />
     <property role="R4oN_" value="[Connection line color]" />
@@ -427,7 +440,7 @@
   </node>
   <node concept="25R3W" id="1AAvwpI9ynk">
     <property role="3F6X1D" value="1848303263165064660" />
-    <property role="3GE5qa" value="connection" />
+    <property role="3GE5qa" value="connection.color" />
     <property role="TrG5h" value="ColorEnum" />
     <ref role="1H5jkz" node="1AAvwpI9yny" resolve="black" />
     <node concept="25R33" id="1AAvwpI9ynl" role="25R1y">
@@ -479,6 +492,52 @@
     </node>
     <node concept="t5JxF" id="1AAvwpIhppK" role="lGtFl">
       <property role="t5JxN" value="Spoken language that can change the editor presentations." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2zw9d8EvBD0">
+    <property role="EcuMT" value="2945394641374968384" />
+    <property role="3GE5qa" value="component" />
+    <property role="TrG5h" value="Components" />
+    <property role="34LRSv" value="Components" />
+    <property role="R4oN_" value="[Components]" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2zw9d8EvBD1" role="1TKVEi">
+      <property role="IQ2ns" value="2945394641374968385" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="components" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1AAvwpHL6tM" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2zw9d8EvF0R">
+    <property role="EcuMT" value="2945394641374982199" />
+    <property role="3GE5qa" value="connection" />
+    <property role="TrG5h" value="Connections" />
+    <property role="34LRSv" value="Connections" />
+    <property role="R4oN_" value="[Connections]" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2zw9d8EvF22" role="1TKVEi">
+      <property role="IQ2ns" value="2945394641374982274" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="connections" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1AAvwpHMjPu" resolve="Connection" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2zw9d8E_Za9">
+    <property role="EcuMT" value="2945394641376637577" />
+    <property role="3GE5qa" value="behavior" />
+    <property role="TrG5h" value="Behaviors" />
+    <property role="34LRSv" value="Behaviors" />
+    <property role="R4oN_" value="[Components behaviors]" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2zw9d8E_Zab" role="1TKVEi">
+      <property role="IQ2ns" value="2945394641376637579" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="behaviors" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1AAvwpI1lHZ" resolve="Behavior" />
     </node>
   </node>
 </model>

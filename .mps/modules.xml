@@ -2,8 +2,10 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/JSONSupport/JSONSupport.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MpsDemo/MpsDemo.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MpsDemo/sandbox/MpsDemo.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/WiringLang/WiringLang.mpl" folder="" />
     </projectModules>
   </component>
 </project>
