@@ -335,5 +335,21 @@
       <ref role="AX2Wp" node="7Jmbci$C3Hq" resolve="DigitalValueEnum" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7QlR1yhu2N9">
+    <property role="EcuMT" value="9049381024348777673" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="Delay" />
+    <property role="34LRSv" value="delay()" />
+    <property role="R4oN_" value="[set delay]" />
+    <ref role="1TJDcQ" node="7Jmbci$BMCa" resolve="Statement" />
+    <node concept="1TJgyi" id="7QlR1yhu2Nf" role="1TKVEl">
+      <property role="IQ2nx" value="9049381024348777679" />
+      <property role="TrG5h" value="milliseconds" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="t5JxF" id="7QlR1yhu2Nd" role="lGtFl">
+      <property role="t5JxN" value="Forces the program to stop running for a specified time." />
+    </node>
+  </node>
 </model>
 

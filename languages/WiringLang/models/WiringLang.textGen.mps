@@ -689,5 +689,33 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="7QlR1yhu4xt">
+    <property role="3GE5qa" value="statement" />
+    <ref role="WuzLi" to="nj1h:7QlR1yhu2N9" resolve="Delay" />
+    <node concept="11bSqf" id="7QlR1yhu4xu" role="11c4hB">
+      <node concept="3clFbS" id="7QlR1yhu4xv" role="2VODD2">
+        <node concept="lc7rE" id="7QlR1yhu4xK" role="3cqZAp">
+          <node concept="la8eA" id="7QlR1yhu4xL" role="lcghm">
+            <property role="lacIc" value="delay(" />
+          </node>
+          <node concept="l9hG8" id="7QlR1yhu4xT" role="lcghm">
+            <node concept="2YIFZM" id="7QlR1yhu4xU" role="lb14g">
+              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+              <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+              <node concept="2OqwBi" id="7QlR1yhu4xV" role="37wK5m">
+                <node concept="117lpO" id="7QlR1yhu4xW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7QlR1yhu4xX" role="2OqNvi">
+                  <ref role="3TsBF5" to="nj1h:7QlR1yhu2Nf" resolve="milliseconds" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7QlR1yhu4xY" role="lcghm">
+            <property role="lacIc" value=");" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
