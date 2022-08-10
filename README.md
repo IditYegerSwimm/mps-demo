@@ -5,6 +5,8 @@ Project uses JetBrains MPS version: [![MPS version](https://img.shields.io/badge
 
 To read more about MPS please read the topic **"[How Does MPS Work?](https://www.jetbrains.com/mps/concepts/)"**.
 
+Was used for the article on habr.com: **"[MPS: изучаем метапрограммирование на примере ардуино](https://habr.com/ru/company/luxoft/blog/589513/)"**.
+
 JetBrains MPS **[project](https://www.jetbrains.com/help/mps/mps-project-structure.html)** consists of different types of modules:
 - **Languages** : define DSL terms and transformation rules (how to transform one language to another)
 - **Solutions** : use Languages modules and contains user's models)
